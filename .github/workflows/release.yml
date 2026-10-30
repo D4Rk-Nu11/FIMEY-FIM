@@ -1,0 +1,15 @@
+name: release
+on:
+  push:
+    tags: ['v*']
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo build --release --locked
+      - run: cp target/release/fimeyfim fimeyfim-linux-x86_64 && sha256sum fimeyfim-linux-x86_64 > fimeyfim-linux-x86_64.sha256
+      - uses: softprops/action-gh-release@v2
+        with: { files: "fimeyfim-linux-x86_64\nfimeyfim-linux-x86_64.sha256" }

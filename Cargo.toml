@@ -1,0 +1,18 @@
+[package]
+name = "fimeyfim"
+version = "2.4.1"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"
+inotify = { version = "0.10", default-features = false }
+rpassword = "=7.3.1"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+libc = "0.2"
+
+[profile.release]
+opt-level = "z"
+lto = true
+strip = true
+panic = "abort"
+codegen-units = 1
