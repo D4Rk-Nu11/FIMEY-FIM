@@ -1,10 +1,10 @@
 [![documentation](https://img.shields.io/badge/documentation-read-brightgreen)](#contents)
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/<D4Rk-Nu11>/fimeyfim?style=social)](https://github.com/<D4Rk-Nu11>/fimeyfim/stargazers)
-[![release](https://img.shields.io/github/v/release/<D4Rk-Nu11>/fimeyfim?color=orange)](https://github.com/<D4Rk-Nu11>/fimeyfim/releases)
+[![Stars](https://img.shields.io/github/stars/D4Rk-Nu11/fimeyfim?style=social)](https://github.com/D4Rk-Nu11/fimeyfim/stargazers)
+[![release](https://img.shields.io/github/v/release/D4Rk-Nu11/fimeyfim?color=orange)](https://github.com/D4Rk-Nu11/fimeyfim/releases)
 [![platform](https://img.shields.io/badge/platform-Linux-lightgrey)](#requirements)
 [![language](https://img.shields.io/badge/language-Rust-orange)](https://www.rust-lang.org)
-[![issues](https://img.shields.io/github/issues/<D4Rk-Nu11>/fimeyfim?color=yellow)](https://github.com/<D4Rk-Nu11>/fimeyfim/issues)
+[![issues](https://img.shields.io/github/issues/D4Rk-Nu11/fimeyfim?color=yellow)](https://github.com/D4Rk-Nu11/fimeyfim/issues)
 
 # FIMEY-FIM
 
