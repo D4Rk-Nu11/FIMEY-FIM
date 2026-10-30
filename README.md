@@ -4,7 +4,7 @@
 [![release](https://img.shields.io/github/v/release/<your-user>/fimeyfim?color=orange)](https://github.com/<your-user>/fimeyfim/releases)
 [![platform](https://img.shields.io/badge/platform-Linux-lightgrey)](#requirements)
 [![language](https://img.shields.io/badge/language-Rust-orange)](https://www.rust-lang.org)
-[![issues](https://img.shields.io/github/issues/<your-user>/fimeyfim?color=yellow)](https://github.com/<your-user>/fimeyfim/issues)
+[![issues](https://img.shields.io/github/issues/<D4Rk-Nu11>/fimeyfim?color=yellow)](https://github.com/<your-user>/fimeyfim/issues)
 
 # FIMEY-FIM
 
