@@ -86,16 +86,9 @@ FIMEY-FIM answers three questions the moment something happens:
 | To build | Rust (`cargo`) - not needed if you use the prebuilt binary |
 
 ## Installation
-### Option 1 - prebuilt binary (no Rust needed)
-Download `fimeyfim-linux-x86_64` (or `fimeyfim-linux-aarch64` for ARM machines such as Raspberry Pi and Kali ARM) and its `.sha256` file from the project's **Releases** page, then:
-```bash
-sha256sum -c fimeyfim-linux-x86_64.sha256
-chmod +x fimeyfim-linux-x86_64
-sudo install -m 0755 fimeyfim-linux-x86_64 /usr/local/bin/fimeyfim
-sudo fimeyfim
-```
 
-### Option 2 - build from source
+
+### Option  - build from source
 ```bash
 git clone https://github.com/<your-user>/fimeyfim.git
 cd fimeyfim
