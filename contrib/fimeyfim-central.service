@@ -1,0 +1,11 @@
+[Unit]
+Description=FIMEY-FIM central collector
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/fimeyfim --server
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

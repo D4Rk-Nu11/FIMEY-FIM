@@ -1,0 +1,20 @@
+name: release
+on:
+  push:
+    tags: ['v*']
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - { os: ubuntu-22.04,     arch: x86_64 }
+          - { os: ubuntu-22.04-arm, arch: aarch64 }
+    runs-on: ${{ matrix.os }}
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo build --release --locked
+      - run: cp target/release/fimeyfim fimeyfim-linux-${{ matrix.arch }} && sha256sum fimeyfim-linux-${{ matrix.arch }} > fimeyfim-linux-${{ matrix.arch }}.sha256
+      - uses: softprops/action-gh-release@v2
+        with: { files: "fimeyfim-linux-${{ matrix.arch }}*" }
